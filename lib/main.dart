@@ -3,8 +3,7 @@ import 'package:pallicare/screens/home.dart';
 import 'package:pallicare/screens/search.dart';
 
 void main() {
-  // runApp(const App());
-  print("Hello World testing out here!");
+  runApp(const App());
 }
 
 class App extends StatelessWidget {

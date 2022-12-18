@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pallicare/widgets/widgets.dart';
+import 'package:pallicare/widgets/home_widgets.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -24,7 +24,9 @@ class HomePage extends StatelessWidget {
               height: MediaQuery.of(context).size.height * 0.25,
             ),
             HomeButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pushNamed(context, "/search");
+              },
               text: "Search for Facilites",
               color: Colors.white,
               backgroundColor: Colors.green,
